@@ -1,0 +1,25 @@
+{
+    // These settings are recommended for all files in the project
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.rulers": [
+        88
+    ],
+    
+    // Python-specific settings
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.tabSize": 4,
+        // Run Ruff's linter and fixer on save
+        "editor.codeActionsOnSave": {
+            "source.fixAll.ruff": "explicit"
+        }
+    },
+    
+    // C/C++ specific settings
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    }
+}

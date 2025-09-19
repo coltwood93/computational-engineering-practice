@@ -48,3 +48,12 @@ venv/
 
 # Ignore the local scratchpad directory
 _local-scratchpad/
+
+# VSCode
+# Ignore all vscode files by default
+.vscode/*
+# useful exclusions to commit
+!/.vscode/extensions.json
+!/.vscode/launch.json
+!/.vscode/settings.json
+!/.vscode/tasks.json
